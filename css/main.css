@@ -1,0 +1,128 @@
+/*****base*****/
+body {
+  font-family: 'Gochi Hand', cursive;
+  color:#595959;
+  background-color:#cc99ff;
+}
+#header{
+  height:auto;
+}
+#about{
+  height:auto;
+}
+#work{
+  height:auto;
+
+}
+#contact{
+  height:auto;
+}
+
+/*****grid*****/
+.full-width {
+  width:1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width:600px;
+float:left;
+}
+.third-width {
+  width:338px;
+  height:160px;
+  padding:30px;
+  float:left;
+}
+/*****header*****/
+header {
+  height:550px;
+  background:url('../img/background.png');
+  background-size:cover;
+}
+#header {
+  font-family:'Architects Daughter', cursive;
+}
+/*****body*****/
+nav {
+  float:right;
+  padding:25px 0;
+}
+nav ul li {
+  display:inline-block;
+}
+nav ul li a{
+  color:#5200cc;
+  font-family:'Patrick Hand', cursive;
+  padding-left: 20px;
+}
+h3 {
+  font-family:'Patrick Hand', cursive;
+  font-size:24px;
+  line-height: normal;
+}
+h2 {
+  font-family:'Patrick Hand', cursive;
+  font-size:32px;
+  line-height: normal;
+}
+.full-width h2{
+  text-align: center;
+}
+
+#about p{
+font-size:18px;
+font-family:'Patrick Hand', cursive;
+}
+#about h2{
+  font-size:24px;
+}
+
+/*****left-column*****/
+.half-width #left-column h3{
+  font-size:24px;
+  font-family:'Architects Daughter', cursive;
+}
+.half-width #left-column p {
+  font-size:18px;
+  font-family:'Patrick Hand', cursive;
+}
+ #left-column {
+  text-align:left;
+  
+
+}
+
+
+/****right-column****/
+#jubilee-image {
+  float:right;
+
+}
+#rogue-image {
+  float:right;
+
+}
+
+
+/*****footer*****/
+footer {
+  font-size:18px;
+  margin:auto;
+  clear:both;
+  text-align:center;
+}
+#contact h2 {
+  font-size:28px;
+  color:#330066;
+}
+#contact h3{
+  font-size:24px;
+  color:#7300e6;
+}
+.social-media {
+  text-align:center;
+}
+.copyright {
+  clear:both;
+  text-align:center;
+}
